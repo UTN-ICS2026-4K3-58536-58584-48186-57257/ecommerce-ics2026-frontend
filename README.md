@@ -1,36 +1,24 @@
-# Unidad 5
+# E-commerce ICS 2026 - Comision 4K3 (Frontend)
 
-# Configuración
-Se agrego un archivo .env.development
-En este archivo tienes una variable de entorno llamada VITE_BACKEND_URL, debes cambiar su valor de acuerdo a la URL de tu backend.
+Integrantes:
+Fernandez, Jose Agustin - Iturre, Horacio Martin - Quintero, Paulina Rocio - Vides Gimenez, Ramiro
 
-# Paginación para productos, nuevo endpoint para listar productos para role ADMIN en BACKEND
+Backend: https://github.com/UTN-ICS2026-4K3-58536-58584-48186-57257/ecommerce-ics2026-backend
 
-## Las imagenes están basadas en una versión de un grupo que está cursando
+## Configuración
 
-Agregar FilterProduct y ResponsePagination
-![alt text](image.png)
-
-Agregar lógica en ProductsManagementService para soportar filtrado de status, busqueda por nombre y paginación
-![alt text](image-1.png)
-
-Crear un nuevo endpoint ("api/products/admin") en PouductController que será utilizado desde el panel del Dashboard
-![alt text](image-2.png)
+El archivo `.env.development` tiene la variable de entorno `VITE_BACKEND_URL`. Cambiar su valor por la URL del backend.
 
 ## Pasos de instalación
 
-### Ejecutar:
+Instalar dependencias:
+`npm install`
 
-```npm install```
+Ejecutar lint:
+`npm run lint`
 
-### Ejecutar lint
+Iniciar la aplicación:
+`npm run dev`
 
-```npm run lint```
-
-### Iniciar aplicación
-
-```npm run dev```
-
-### Crear archivos para producción
-
-```npm run build```
+Generar archivos para producción:
+`npm run build`
